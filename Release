@@ -1,0 +1,9 @@
+Origin: LongGrepo
+Label: LongG
+Suite: stable
+Version: 1.0
+Codename: LongG
+Architectures: iphoneos-arm
+Components: main
+Description: LongGrepo
+
