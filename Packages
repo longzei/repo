@@ -32,25 +32,6 @@ Description: Pwns In-app purchases on iOS 5.1.1 - 7.1 (works with developer serv
 Author: anondev
 Name: LocalIAPStore
 
-Package: app.weiphone.lantern.wifikey
-Version: 2.2.2
-Architecture: iphoneos-arm
-Essential: no
-Maintainer: Feng.com <support@office.feng.com>
-Filename: ./debs/wifi万能钥匙2.2.2.deb
-Size: 1948214
-MD5sum: 6441b52bbaa6f6129d671120801c274c
-SHA1: 2aa1ac6a93b9a7b99305d40baefcb7dfb8a33938
-SHA256: 4da4ee76f130b41098e5d432d4dfef4ad10edc9814ee73ddfd23f3dc705bc73e
-Section: [威锋源-应用工具]
-Priority: standard
-Homepage: http://apt.so/index.php?r=read&id=53f6bfc70e1d159c728b49a1
-Description: WiFi万能钥匙
-Author: 上海连尚科技有限公司<wifikeyios@snda.com>
-Depiction: http://apt.so/index.php?r=cydia&id=53f6bfc70e1d159c728b49a1
-Name: WiFi万能钥匙
-Sponsor: Feng.com <http://www.feng.com>
-
 Package: app.weiphone.unkn0wn.iFaker
 Version: 1.0-1
 Architecture: iphoneos-arm
@@ -67,46 +48,6 @@ Priority: standard
 Homepage: http://apt.so/index.php?r=read&id=531da6d87901c17b508b46bd
 Author: unkn0wn<support@office.weiphone.com>
 Depiction: http://apt.so/index.php?r=cydia&id=531da6d87901c17b508b46bd
-Name: iFaker
-Sponsor: WeiPhone.com <http://www.weiphone.com>
-
-Package: app.weiphone.unkn0wn.iFaker
-Version: 1.0-1
-Architecture: iphoneos-arm
-Essential: no
-Maintainer: Feng.com <support@office.feng.com>
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/ifaker2.deb
-Size: 229344
-MD5sum: 7f952acf3e611aaf524a6002824b5c5c
-SHA1: a45dc574fab3501a9090c36868100ed92464a222
-SHA256: 45a8c819cb280a86a49a247b4900d582275503930e6bb7afe620a6325819f0c9
-Section: [威锋源-应用工具]
-Priority: standard
-Homepage: http://apt.so/index.php?r=read&id=53bf3507319a39d3048b4a87
-Description: iFaker破解第二版
-Author: unkn0wn<support@office.feng.com>
-Depiction: http://apt.so/index.php?r=cydia&id=53bf3507319a39d3048b4a87
-Name: iFaker破解第二版
-Sponsor: Feng.com <http://www.feng.com>
-
-Package: app.weiphone.unkn0wn.iFaker
-Version: 1.0-1
-Architecture: iphoneos-arm
-Essential: no
-Maintainer: WeiPhone.com <support@office.weiphone.com>
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/ifaker4.deb
-Size: 286068
-MD5sum: 856ee5a629aead43031e8857ce77e073
-SHA1: 494ddc9ff54f74b498a0f339bb890b0756d9619a
-SHA256: ae05abbc2660117e855adfe38d36cd4e1ae74b34ae2f059e99efdaead9959daf
-Section: [威锋源-应用工具]
-Priority: standard
-Homepage: http://apt.so/index.php?r=read&id=532554acb704b2d12e8b4c31
-Description: 破解
-Author: 破解<support@office.weiphone.com>
-Depiction: http://apt.so/index.php?r=cydia&id=532554acb704b2d12e8b4c31
 Name: iFaker
 Sponsor: WeiPhone.com <http://www.weiphone.com>
 
@@ -149,25 +90,6 @@ Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.3
 Author: CokePokes
 Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
 Name: AppStore++
-
-Package: com.darwindev.speedmanager
-Version: 1.1
-Architecture: iphoneos-arm
-Maintainer: 烧饼哥 <sbtools.me@gmail.com>
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/com.darwindev.speedmanager_1.1_iphoneos-arm.deb
-Size: 667368
-MD5sum: cb5c6eec077f2b1dfd2257fd09f3bae6
-SHA1: 0e111182ce9f54d33563a809f6a686bca508a8bb
-SHA256: 3ecc9e6750088e94bd8acc001f8a9a772400b327763c826d0cde00dde662abf6
-Section: [82Flex - 工具]
-Priority: optional
-Homepage: http://sbtools.me
-Description: 烧饼加速器：可以轻松改变游戏运行速度，完美支持99%游戏，游戏节奏从此由你作主。完美支持 iOS 5.1.1 ~ iOS 7.1 设备，完美支持 64 位！
-Author: 烧饼哥 <sbtools.me@gmail.com>
-Icon: file:///Applications/SpeedManger.app/Icon@2x.png
-Name: 烧饼加速器
-Sponsor: i_82
 
 Package: com.hackyouriphone.conditionalwifi4
 Version: 1.0.0k
@@ -312,6 +234,28 @@ Dev: kevliule
 Name: DingTalkHelper
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.lantern.wifikey
+Version: 2.2.2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 4117
+Depends: firmware (>= 5.0)
+Filename: ./debs/wifikey_2.2.2.deb
+Size: 1941978
+MD5sum: 1c2f02f9798fe816cf848cb5353113d0
+SHA1: 10bd0f900624c6efcb803820125ba30a8ec0b265
+SHA256: ae6b0e49d3b5456e48996ebed894f725065a9d8e11f8a6532185a781fb83be3f
+Section: Utilities
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wifikeyDp
+Description: WiFi万能钥匙
+Tag: purpose::uikit, role::enduser, ios7support::1, ios8support::1
+Author: Contact Support <2021293866@qq.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wifikeyDp
+Dev: lantern
+Icon: file:///Applications/WiFiKey.app/app_icon.png
+Name: WiFi万能钥匙
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.michael.dimentio
 Version: 0.5.4
 Architecture: iphoneos-arm
@@ -412,21 +356,6 @@ Depiction: https://repo.lenglengyu.top/packageInfo/thor.html
 Name: Thor去限制
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/thorsileo
 
-Package: crackulous
-Version: 1.0.0.5
-Architecture: iphoneos-arm
-Pre-Depends: firmware (>= 4.0)
-Depends: zip
-Filename: ./debs/crackulous_1.0.0.5.deb
-Size: 1190166
-MD5sum: 9dd206007eeca0a02fc2fb64171e1a43
-SHA1: b89f74b18dc5dc0be774d48f4663a0b92a48ddad
-SHA256: 591ec27e64e6b2bc84d94a03095b28214d36307082073064afbb0189d7d75790
-Section: [工具]
-Description: crackulous                  --一键破解应用软件，重启后生效
-Author: Docmorelli <apps@hackulo.us>
-Name: crackulous一键应用破解
-
 Package: cydia.com.ipc.crackerxi
 Version: 1.1.16
 Architecture: iphoneos-arm
@@ -442,26 +371,6 @@ Description: Decrypts iOS Apps
 Icon: file:///Applications/crackerxi.app/AppIcon.png
 Name: CrackerXI+
 Website: https://ipastore.me
-
-Package: hzy.iCrack
-Version: 1.6
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: hzy1996 <hzy@weiphone.com>
-Installed-Size: 101
-Filename: ./debs/iCrack_1.62.deb
-Size: 554320
-MD5sum: 35ce091d0a71be91201654e9b18aeb64
-SHA1: 7307ef88755ac027f1a9433abcf8223d65a2a996
-SHA256: 64e53522f2daaedd5a504720222ae3618b5ed4f6e4aad6d1d096763a33e69b29
-Priority: Important
-Homepage: http://t.qq.com/hzy1996
-Description: 欢迎使用！（＾∇＾）.<br><br>在新版的Terminal等工具中输入icrack即可运行，按提示操作就行啦<br><br>就这些，如果还有疑问，欢迎联系我，我很乐意为您解决！<br>有对这个程序的好建议也欢迎联系我：<br>WeiPhone ID：hzy1996<br><br>强烈建议大家收听我的微博：<br>http://t.qq.com/hzy1996/<br>最棒最酷的软件，自购自破、苹果新闻的发布基地
-Author: hzy <hzy@weiphone.com>
-Icon: file:///var/mobile/Library/iCrack/Icon.png
-Name: iCrack破解工具
-Purpose: console
-Sponsor: MyWeiBo <http://t.qq.com/hzy1996>
 
 Package: jp.akusio.backgrounderaction11
 Version: 0.0.8
