@@ -289,6 +289,24 @@ Icon: file:///Applications/WiFiKey.app/app_icon.png
 Name: WiFi万能钥匙
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.michael.appleturboboost
+Version: 0.7.0
+Architecture: iphoneos-arm
+Maintainer: Halo_Michael <yc992147156@me.com>
+Depends: firmware (>= 12.0)
+Conflicts: com.michael.appleilluminator
+Filename: ./debs/com.michael.appleturboboost_0.7.0_iphoneos-arm.deb
+Size: 9876
+MD5sum: 3b3fb229c9efe153cdf6288963efc66a
+SHA1: d6ee79806088ed1ff10aa50e876662e09e1ecaf4
+SHA256: c593c79ecbd596793230cbb9de3dd448118d37a1f029f1904d455ffe28ee9992
+Section: System
+Description: Turbo Boost Your Apple!
+ Turbo Boost Your Apple!
+ Support iOS12~14.
+Author: Halo_Michael <yc992147156@me.com>
+Name: Apple Turbo Boost
+
 Package: com.michael.dimentio
 Version: 0.5.4
 Architecture: iphoneos-arm
@@ -319,6 +337,43 @@ Description: Auto set your generator when jailbreaking!
 Author: halo_michael <yc992147156@me.com>
 Depiction: https://halo-michael.github.io/repo/info/generatorautosetter
 Name: Generator Auto Setter
+Sponsor: halo_michael <yc992147156@me.com>
+
+Package: com.michael.generatorautosetter
+Version: 0.5.7
+Architecture: iphoneos-arm
+Maintainer: halo_michael <yc992147156@me.com>
+Depends: firmware (>= 12.0), com.michael.libdementia (>= 0.2.5), preferenceloader
+Filename: ./debs/com.michael.generatorautosetter_0.5.7_iphoneos-arm.deb
+Size: 11896
+MD5sum: 78c1ffea4846bd99a9dd74a0167c2248
+SHA1: 93f9ca1780aa3800d5418ce162f5bd9fdcb587d6
+SHA256: 83ebd27c8c05f2bbe88eebf5fa643872248e3a0ff3b2949339c6ca00f037e45c
+Section: Tweaks
+Description: Auto set your generator when jailbreaking!
+Author: halo_michael <yc992147156@me.com>
+Depiction: https://halo-michael.github.io/repo/info/generatorautosetter
+Name: Generator Auto Setter
+Sponsor: halo_michael <yc992147156@me.com>
+
+Package: com.michael.localssh
+Version: 0.4.1
+Architecture: iphoneos-arm
+Maintainer: halo_michael <yc992147156@me.com>
+Depends: firmware (>= 12.0), openssh(>= 8.0)
+Conflicts: com.midnightchips.localhostssh
+Replaces: com.midnightchips.localhostssh
+Provides: com.midnightchips.localhostssh
+Filename: ./debs/com.michael.localssh_0.4.1_iphoneos-arm.deb
+Size: 7360
+MD5sum: b28df1f2b17daab8e177d67ed0884c0a
+SHA1: 77b67195b8382246d5f81861cc9c7be0b97ecaae
+SHA256: e50fc5d24e47f1ace1c8a8f5d82b3ee1ead9554c0353ac4958ecb5d1e74cf2b8
+Section: Tweaks
+Description: Enable port 2222 on localhost for OpenSSH.
+ Support Checkra1n, Chimera , Odyssey and Unc0ver.
+Author: halo_michael <yc992147156@me.com>
+Name: LocalSSH
 Sponsor: halo_michael <yc992147156@me.com>
 
 Package: com.neinzedd9.fakecallhistory
@@ -401,6 +456,22 @@ Section: Tweaks
 Description: Super Jailbreak detection bypass!
 Author: Baw Appie <pp121324@gmail.com>
 Name: A-Bypass
+
+Package: com.rpgfarm.libaptoast
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Baw Appie <pp121324@gmail.com>
+Installed-Size: 132
+Filename: ./debs/com.rpgfarm.libaptoast.deb
+Size: 7066
+MD5sum: b6885d2503f2f35cb17eb13ca7aa6bbb
+SHA1: 5ef89490600eeec65c8a5f03b22861c524c40d7b
+SHA256: 9a8973fe080b4b7fcef034e32b34ba60ebd29c51fc71792f1e3ffe52f5ca3391
+Section: System
+Description: Baw Appie's Toast Library
+Tag: role::developer
+Author: Baw Appie <pp121324@gmail.com>
+Name: libAPToast
 
 Package: com.ryleyangus.libertylite
 Version: 0.2.10
