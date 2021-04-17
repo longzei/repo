@@ -595,11 +595,11 @@ Architecture: iphoneos-arm
 Maintainer: iOSGods.com
 Installed-Size: 9600
 Depends: mobilesubstrate
-Filename: ./debs/iOSGods.com.GenshinImpact_1.1.0+iOSGods.com_iphoneos-arm.deb
-Size: 2417130
-MD5sum: 96b2b05815945debbd49e5318c56c48b
-SHA1: 42fd94f4b0ceb7f996abded314b608ece643bbe0
-SHA256: aa14e706f8ee2a18527df3502debccedeff4f8b8d72a5b8b9fff4490136014e1
+Filename: ./debs/iOSGods.com.GenshinImpact_1.0.2+5iOSGods.com_iphoneos-arm.deb
+Size: 2421278
+MD5sum: 748d116827993aeeef5bab1453ce1229
+SHA1: 509e999674d879245e47692975cbb84efde1ee8f
+SHA256: 77c76d9540cb1f08f7f4a07038a15f2f3b37879cdc8c311ac1f0d3ac54e2b53d
 Section: Tweaks
 Homepage: https://iosgods.com
 Description: Genshin Impact iGMM Cheats by Laxus for iOSGods.com!
@@ -607,16 +607,16 @@ Author: Laxus
 Name: Genshin Impact Cheats
 
 Package: iOSGods.com.GenshinImpact
-Version: 1.0.2+iOSGods.com
+Version: 1.1.0+iOSGods.com
 Architecture: iphoneos-arm
 Maintainer: iOSGods.com
 Installed-Size: 9600
 Depends: mobilesubstrate
-Filename: ./debs/iOSGods.com.GenshinImpact_1.0.2+5iOSGods.com_iphoneos-arm.deb
-Size: 2421278
-MD5sum: 748d116827993aeeef5bab1453ce1229
-SHA1: 509e999674d879245e47692975cbb84efde1ee8f
-SHA256: 77c76d9540cb1f08f7f4a07038a15f2f3b37879cdc8c311ac1f0d3ac54e2b53d
+Filename: ./debs/iOSGods.com.GenshinImpact_1.1.0+iOSGods.com_iphoneos-arm.deb
+Size: 2419294
+MD5sum: 255d0f67c6ffa21a98862d27ff93aa2b
+SHA1: be5f528d5fd80587751b78b89909f543234f231b
+SHA256: 0a3c8b3006b3e234e850caf47190ec853aefd9b44e1c44375d32770ede6d1468
 Section: Tweaks
 Homepage: https://iosgods.com
 Description: Genshin Impact iGMM Cheats by Laxus for iOSGods.com!
