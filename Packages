@@ -595,11 +595,45 @@ Architecture: iphoneos-arm
 Maintainer: iOSGods.com
 Installed-Size: 9600
 Depends: mobilesubstrate
+Filename: ./debs/iOSGods.com.GenshinImpact_1.1.0+iOSGods.com_iphoneos-arm.deb
+Size: 2417130
+MD5sum: 96b2b05815945debbd49e5318c56c48b
+SHA1: 42fd94f4b0ceb7f996abded314b608ece643bbe0
+SHA256: aa14e706f8ee2a18527df3502debccedeff4f8b8d72a5b8b9fff4490136014e1
+Section: Tweaks
+Homepage: https://iosgods.com
+Description: Genshin Impact iGMM Cheats by Laxus for iOSGods.com!
+Author: Laxus
+Name: Genshin Impact Cheats
+
+Package: iOSGods.com.GenshinImpact
+Version: 1.0.2+iOSGods.com
+Architecture: iphoneos-arm
+Maintainer: iOSGods.com
+Installed-Size: 9600
+Depends: mobilesubstrate
 Filename: ./debs/iOSGods.com.GenshinImpact_1.0.2+5iOSGods.com_iphoneos-arm.deb
 Size: 2421278
 MD5sum: 748d116827993aeeef5bab1453ce1229
 SHA1: 509e999674d879245e47692975cbb84efde1ee8f
 SHA256: 77c76d9540cb1f08f7f4a07038a15f2f3b37879cdc8c311ac1f0d3ac54e2b53d
+Section: Tweaks
+Homepage: https://iosgods.com
+Description: Genshin Impact iGMM Cheats by Laxus for iOSGods.com!
+Author: Laxus
+Name: Genshin Impact Cheats
+
+Package: iOSGods.com.GenshinImpact
+Version: 1.1.1+iOSGods.com
+Architecture: iphoneos-arm
+Maintainer: iOSGods.com
+Installed-Size: 8384
+Depends: mobilesubstrate
+Filename: ./debs/iOSGods.com.GenshinImpact_1.1.1+iOSGods.com_iphoneos-arm.deb
+Size: 2417576
+MD5sum: 9ac90bcd4c402b58e348f1ccb9a23bd0
+SHA1: b04c06535be4e49281869156794f161bc3c5d4e7
+SHA256: 0f9a0b6310ce278ae9fc129845d29e2339ca3caff331718b6e586222ced9a36b
 Section: Tweaks
 Homepage: https://iosgods.com
 Description: Genshin Impact iGMM Cheats by Laxus for iOSGods.com!
@@ -862,6 +896,28 @@ Description: Untether for 9.1-9.3.4 32bit
 Author: tihmstar
 Dev: tihmstar
 Name: UntetherHomeDepot
+
+Package: netskao.classickeyboardxs
+Version: 1.1-5
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 463
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/classickeyboardxs_1.1-5.deb
+Size: 58724
+MD5sum: c47b0be6ffb2791929de218a4df45eea
+SHA1: 17a31cb2afccc1525a3bccdcf604b597d88d08e1
+SHA256: 0aa207c4b15655a31d39d137a783ea029f763ec9d40466ae2e1c3fa0a9abb8ce
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=classickeyboardxsDp
+Description: 自定义X键盘底部高度，地球底部高度
+Tag: purpose::extension
+Author: Netskao <netskao@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=classickeyboardxsDp
+Dev: netskao
+Icon: file:///Library/PreferenceBundles/ClassicKeyboardXSSettings.bundle/ClassicKeyboardXSSettings@2x.png
+Name: ClassicKeyboardXS
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.disablepastetips
 Version: 1.1-3
