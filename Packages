@@ -91,6 +91,29 @@ Author: CokePokes
 Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
 Name: AppStore++
 
+Package: com.cydiageek.coysim
+Version: 1.6.4
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 443
+Depends: mobilesubstrate, firmware (>= 8.0), preferenceloader
+Filename: ./debs/coysim_1.6.4.deb
+Size: 41606
+MD5sum: a00c733e218146f14ffbe0100e0731da
+SHA1: 118783588ec078017027d1bf7070d24006a2b650
+SHA256: beb36cf7d97e42520d00c2e52d68a90760d4ca77e586e1919e080e2b2e002156
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=coysimDp
+Description: Get rid of No SIM Card Alerts and More!
+Tag: purpose::extension
+Author: CydiaGeek <lucaluca86@aol.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=coysimDp
+Dev: lucaluca86
+Icon: file:///Library/PreferenceBundles/CoySIM.bundle/CoySIM.png
+Name: CoySIM
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.gamegod.igg
 Version: 0.1.1
 Architecture: iphoneos-arm
@@ -473,6 +496,22 @@ Tag: role::developer
 Author: Baw Appie <pp121324@gmail.com>
 Name: libAPToast
 
+Package: com.rpgfarm.pulloverproapappview
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Baw Appie <pp121324@gmail.com>
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000), com.c1d3r.pulloverpro, com.rpgfarm.libapappview
+Filename: ./debs/com.rpgfarm.pulloverproapappview_1.0_iphoneos-arm.deb
+Size: 4908
+MD5sum: f1b36b1857f909a25f8841910aa03f23
+SHA1: 2ebc6896e0bb45bf470f131811f95bf98efa2b95
+SHA256: 12a2ecf715ac6117ca129d5fa3c1247390a1f7cf66468b078414520dea49f441
+Section: Tweaks
+Description: PullOver Pro Keyboard Fix
+Author: Baw Appie <pp121324@gmail.com>
+Name: PullOver Pro Keyboard Fix
+
 Package: com.ryleyangus.libertylite
 Version: 0.2.10
 Architecture: iphoneos-arm
@@ -508,6 +547,56 @@ Description: A general purpose jailbreak detection bypass patch. Configure the L
 Author: Ryley Angus
 Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
 Name: Liberty Lite (Beta)
+
+Package: com.xia0.fakelocationx
+Version: 6.3-3
+Architecture: iphoneos-arm
+Maintainer: xia0
+Installed-Size: 2524
+Depends: mobilesubstrate
+Filename: ./debs/com.xia0.fakelocationx_6.3-3_iphoneos-arm.deb
+Size: 1007772
+MD5sum: e5aff1f36c3179423ea8d24bf6f77878
+SHA1: 5ab024d77663c62f07d11ec55ac21dc3bdbcb30f
+SHA256: cd9e81abbf9c8390402f3ad9d155ce552f06f5d0fee8e9e2bb67440f861e2886
+Section: Tweaks
+Description: The Best Fake Location Tweak xia0Dev Edition
+Author: xia0 & Lakr
+Icon: file:///Library/PreferenceBundles/fakelocationpre.bundle/icon@2x.png
+Name: FakeLocationX
+
+Package: com.xia0.wechatx
+Version: 2.0-13
+Architecture: iphoneos-arm
+Maintainer: xia0
+Installed-Size: 692
+Depends: mobilesubstrate
+Filename: ./debs/com.xia0.wechatx_2.0-13_iphoneos-arm.deb
+Size: 195024
+MD5sum: 19b4df08314c2b727c56c126a2446978
+SHA1: 404d9edd8f912446708c26e95ee17557153995f4
+SHA256: 35e229b76ddfbd5766623b882f764f68ca3f98a9644177187cebacfb9f4f14cd
+Section: Tweaks
+Description: WeChat Tools By xia0Dev
+Author: xia0
+Name: WeChat X
+
+Package: com.xia0.wechatzanx
+Version: 0.2-2
+Architecture: iphoneos-arm
+Maintainer: xia0
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: ./debs/com.xia0.wechatzanx_0.2-2_iphoneos-arm.deb
+Size: 28410
+MD5sum: add3ad097559c47c46e14e68fa56d4db
+SHA1: cc8aba6c6991977f3192f02a556fde661134fcff
+SHA256: c78d67a23085c1e2e573e9e91c4218d4f52e5accc566d5036bd047ed14aed37c
+Section: Tweaks
+Description: 微信积赞助手，积赞不求人！
+Author: xia0
+Icon: https://s1.ax1x.com/2020/08/18/dMg3Oe.png
+Name: 微信积赞助手（xia0Dev）
 
 Package: com.xxx.acceptwall
 Version: 0.0.1-189
@@ -707,6 +796,23 @@ Description: [iOS13]Add "Toggle Background Mode" action to ControlCenter.
 Author: akusio <akusio-report@neko2.net>
 Depiction: https://akusio.github.io/descriptions/backgrounderaction13/index.html
 Name: BackgrounderAction2 for CCSupport
+
+Package: jp.akusio.kernbypass
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: akusio
+Installed-Size: 380
+Depends: mobilesubstrate, applist, preferenceloader, firmware(>=12.0)
+Filename: ./debs/jp.akusio.kernbypass_0.0.2_iphoneos-arm.deb
+Size: 12098
+MD5sum: bf11d32c8efe3576fb1716ad28227f0b
+SHA1: d54a0131ea51d21447be7950ef6cb495f751dc1a
+SHA256: 612ca12f0818ed7763806d87f0e4f977d5b208b2dd67b0997745bc0e39a434b2
+Section: System
+Description: kernel level jailbreak detection bypass.
+Author: akusio
+Depiction: http://akusio.github.io/descriptions/kernbypass/index.html
+Name: KernBypass
 
 Package: kr.xsf1re.mcpatch
 Version: 0.0.1
