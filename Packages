@@ -330,6 +330,31 @@ Icon: file:///Applications/WiFiKey.app/app_icon.png
 Name: WiFi万能钥匙
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.linspike.kuaidial
+Version: 1.0.1a2-13k
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 3521
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 7.0)
+Conflicts: kuaidial-beta
+Replaces: kuaidial-beta
+Filename: ./debs/kuaidial_1.0.1a2-13k.deb
+Size: 344758
+MD5sum: cfcebab0aafbc33769de4215b636a15b
+SHA1: bab0bcd95264e3855e99383d394e9926f3bc23d6
+SHA256: ee6274af247101a9b72aada454c890f7fcd0a5463fba24ae1c86037a8fc23796
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=kuaidialDp
+Description: adds useful functions to Phone app
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9
+Author: linspike <linspike@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=kuaidialDp
+Dev: linspike
+Icon: file:///System/Library/PreferenceBundles/KuaiDialSettings.bundle/icon@2x.png
+Name: KuaiDial (iOS 7/8/9)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.michael.appleturboboost
 Version: 0.7.0
 Architecture: iphoneos-arm
