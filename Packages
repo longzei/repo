@@ -608,6 +608,23 @@ Author: xia0 & Lakr
 Icon: file:///Library/PreferenceBundles/fakelocationpre.bundle/icon@2x.png
 Name: FakeLocationX
 
+Package: com.xia0.fakelocationx
+Version: 6.4-1
+Architecture: iphoneos-arm
+Maintainer: xia0
+Installed-Size: 2540
+Depends: mobilesubstrate
+Filename: ./debs/com.xia0.fakelocationx_6.4-1_iphoneos-arm.deb
+Size: 1008258
+MD5sum: 14c5e20453b387b69e01c8f1813db115
+SHA1: 87118a515c873729a0bfa63ae97a3372f0d1a6a5
+SHA256: 674298f171fe0c89ef3cc497134b6549a7397374106e42546eec34b50e3abc73
+Section: Tweaks
+Description: The Best Fake Location Tweak xia0Dev Edition
+Author: xia0 & Lakr
+Icon: file:///Library/PreferenceBundles/fakelocationpre.bundle/icon@2x.png
+Name: FakeLocationX
+
 Package: com.xia0.wechatx
 Version: 2.0-13
 Architecture: iphoneos-arm
@@ -619,6 +636,22 @@ Size: 195024
 MD5sum: 19b4df08314c2b727c56c126a2446978
 SHA1: 404d9edd8f912446708c26e95ee17557153995f4
 SHA256: 35e229b76ddfbd5766623b882f764f68ca3f98a9644177187cebacfb9f4f14cd
+Section: Tweaks
+Description: WeChat Tools By xia0Dev
+Author: xia0
+Name: WeChat X
+
+Package: com.xia0.wechatx
+Version: 2.1-6
+Architecture: iphoneos-arm
+Maintainer: xia0
+Installed-Size: 660
+Depends: mobilesubstrate
+Filename: ./debs/com.xia0.wechatx_2.1-6_iphoneos-arm.deb
+Size: 165940
+MD5sum: 89468716cb8fff7b3d40c94c89abd784
+SHA1: 4cc3bad4a07fc598a1b9889dfd86b5754aa95611
+SHA256: aac45852d636fc006168a3ca92057f71202062148b0c08b495d7ad96e29f9043
 Section: Tweaks
 Description: WeChat Tools By xia0Dev
 Author: xia0
