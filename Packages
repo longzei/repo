@@ -91,6 +91,42 @@ Author: CokePokes
 Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
 Name: AppStore++
 
+Package: com.cokepokes.appstoreplusplus
+Version: 0.9.17-1
+Architecture: iphoneos-arm
+Maintainer: CokePokes
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.unlimapps.uaupdatetools
+Filename: ./debs/com.cokepokes.appstoreplusplus_0.9.17-1_iphoneos-arm.deb
+Size: 3680284
+MD5sum: 2fc158dfa5b4fdefef751fb80c5d5422
+SHA1: 7891f574932627e168e2d3831854b7a4ff8567eb
+SHA256: b537e0618004157b7db28e45b72e97c784a3cb16509f5b20036caaf558f6d2e3
+Section: Tweaks
+Priority: optional
+Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-15.whatever
+Author: CokePokes
+Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
+Name: AppStore++
+
+Package: com.cokepokes.appstoreplusplus
+Version: 0.9.17-5
+Architecture: iphoneos-arm
+Maintainer: CokePokes
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.unlimapps.uaupdatetools
+Filename: ./debs/com.cokepokes.appstoreplusplus_0.9.17-5_iphoneos-arm.deb
+Size: 3708972
+MD5sum: 5d3d052522c2901daed2466e68128341
+SHA1: af4a9a29f211dfba829eb6fce92f38702910bd04
+SHA256: 3b71923c3387ef629eee334a21b9e44407fc152c9d2b209bd5c385360e0163f3
+Section: Tweaks
+Priority: optional
+Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-15.whatever
+Author: CokePokes
+Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
+Name: AppStore++
+
 Package: com.cydiageek.coysim
 Version: 1.6.4
 Architecture: iphoneos-arm
@@ -165,6 +201,44 @@ Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=sneak
 Name: SneakyCam
 Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=sneakycam
 
+Package: com.hackyouriphone.vpnproxymasterhack
+Version: 2.0.2
+Architecture: iphoneos-arm
+Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+Depends: mobilesubstrate
+Filename: ./debs/com.hackyouriphone.vpnproxymasterhack_2.0.2_iphoneos-arm.deb
+Size: 77690
+MD5sum: c24e51ad939dab7d70400c9908adf1d4
+SHA1: 6d61a4a3e25a8f51830121111815a323691de2a9
+SHA256: 804a74f6dddde3cb8fd32fc4751d332c08f1638cb82c1d0bedeefcfc6850e01a
+Section: HYI - Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=vpnproxymasterhack
+Description: Unlimited VPN VIP!
+Author: pxcex <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=vpnproxymasterhack
+Name: VPN Proxy Master Hack
+
+Package: com.ichitaso.networkdisabler
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: ichitaso <willfeeltips+ntd@gmail.com>
+Installed-Size: 1044
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, applist
+Filename: ./debs/com.ichitaso.networkdisabler_1.0.1_iphoneos-arm.deb
+Size: 198518
+MD5sum: cff5bc818596d1dda2f017ac27999f2f
+SHA1: 6f0476468e740a69aa4c687e7774256ab29bfe25
+SHA256: 0c1beffd1149c7b691491a2e51ddbc09526a4b9b45e488915b0ea7364df76a45
+Section: Tweaks
+Homepage: https://ichitaso.com
+Description: Control your network when using apps
+Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
+Author: ichitaso <willfeeltips+ntd@gmail.com>
+Depiction: https://cydia.ichitaso.com/depiction/networkdisabler.html
+Dev: ichitaso
+Icon: file:///Library/PreferenceBundles/NetworkDisablerSettings.bundle/icon@2x.png
+Name: NetworkDisabler
+
 Package: com.imkpatil.letmeknow
 Version: 1.4.2
 Architecture: iphoneos-arm
@@ -199,6 +273,27 @@ Depiction: https://www.icaughtuapp.com/repo/depictions/web/?p=com.itaysoft.wifil
 Icon: https://www.icaughtuapp.com/repo/icons/com.itaysoft.wifilist.png
 Name: WiFi List
 Sileodepiction: https://www.icaughtuapp.com/repo/depictions/native/com.itaysoft.wifilist/depiction.json
+
+Package: com.jakeashacks.realcc
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 102
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/realcc_1.0.2.deb
+Size: 4186
+MD5sum: 4cd08f43cce7af370fda8e60a86e3561
+SHA1: 8f0161114800f18a38551b01b5192a10f36c85cf
+SHA256: 20bfa5de12cbf0ef2014b29a3f16f6aeb96ec1f7f5bae13988c5d7c89043b886
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=realccDp
+Description: Actually disable Wi-Fi from the iOS 11 CC
+Tag: purpose::extension, compatible::ios11, compatible::ios12
+Author: Jake James <jakeashacks@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=realccDp
+Dev: jakeashacks
+Name: RealCC
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.jerrytian.wechat.callkit
 Version: 0.0.1
@@ -330,6 +425,22 @@ Icon: file:///Applications/WiFiKey.app/app_icon.png
 Name: WiFi万能钥匙
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.laxus.iosgodsiapcracker
+Version: 1.0-2+debug
+Architecture: iphoneos-arm
+Maintainer: Laxus
+Installed-Size: 296
+Depends: mobilesubstrate
+Filename: ./debs/com.laxus.iosgodsiapcracker_1.0-2+debug_iphoneos-arm.deb
+Size: 18412
+MD5sum: f609fdef7758b9f6c5b544781c58ded7
+SHA1: 6c7108cb350d2442aebc099fe3b2feaf939a55d6
+SHA256: 9f4b9857cd7a8286a14b477e5796cc14d7d71224fb8d8987a5a0324c4871aeb7
+Section: Tweaks
+Description: Free iAP Purchase for some apps and games, it doesn’t always work so don’t expect much. Turn on the tweak inside iOS Settings. This tweak is made by @Laxus for iOSGods.com, supported A12 / A13 devices
+Author: Laxus
+Name: iOSGods iAP Cracker
+
 Package: com.linspike.kuaidial
 Version: 1.0.1a2-13k
 Architecture: iphoneos-arm
@@ -442,6 +553,25 @@ Author: halo_michael <yc992147156@me.com>
 Name: LocalSSH
 Sponsor: halo_michael <yc992147156@me.com>
 
+Package: com.michael.networkfixer
+Version: 1.2.2-1
+Architecture: iphoneos-arm
+Maintainer: halo_michael <yc992147156@me.com>
+Installed-Size: 132
+Depends: firmware (>= 11.0)
+Conflicts: com.laoyur.network-fixer, com.rockqj.networkfixer
+Filename: ./debs/com.michael.networkfixer_1.2.2-1_iphoneos-arm.deb
+Size: 5056
+MD5sum: 0ac523cbb95ae1bb7d55a97e7b523210
+SHA1: bab63106ece3872775b0927789e4b87490fa637e
+SHA256: c103ea257e1a393966909220602f51fff0060a643c7e859b4d238075c7457147
+Section: System
+Description: Fix app network error for China models.
+Tag: role::hacker
+Author: halo_michael <yc992147156@me.com>
+Depiction: https://halo-michael.github.io/repo/info/networkfixer
+Name: networkfixer
+
 Package: com.neinzedd9.fakecallhistory
 Version: 1.0.4.1
 Architecture: iphoneos-arm
@@ -523,6 +653,22 @@ Description: Super Jailbreak detection bypass!
 Author: Baw Appie <pp121324@gmail.com>
 Name: A-Bypass
 
+Package: com.rpgfarm.a-bypass
+Version: 1.5.4
+Architecture: iphoneos-arm
+Maintainer: Baw Appie <pp121324@gmail.com>
+Installed-Size: 848
+Depends: mobilesubstrate, com.muirey03.libmryipc, applist, com.rpgfarm.libaptoast, preferenceloader
+Filename: ./debs/com.rpgfarm.a-bypass1.5.4.deb
+Size: 100688
+MD5sum: e1eb6c4db0a9d111fd280896ef3a41f8
+SHA1: bad5157c3c6237fd7b9f48c53d56f021c2c78440
+SHA256: 3dcadcdebe4193115ab79ff00048df753893703e7a90b22a3b7e49246c103236
+Section: Tweaks
+Description: Super Jailbreak detection bypass!
+Author: Baw Appie <pp121324@gmail.com>
+Name: A-Bypass
+
 Package: com.rpgfarm.libaptoast
 Version: 1.0
 Architecture: iphoneos-arm
@@ -590,6 +736,23 @@ Description: A general purpose jailbreak detection bypass patch. Configure the L
 Author: Ryley Angus
 Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
 Name: Liberty Lite (Beta)
+
+Package: com.vsz.redeb
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: T.Herak <50dc856b@opayq.com>
+Depends: bash (>= 4.0.17-13), coreutils (>= 8.12-12p), grep (>= 2.5.4-3), sed (>= 4.1.5-7), gawk (>= 3.1.6-2p), apt7 (>= 0.7.25.3-6)
+Filename: ./debs/com.vsz.redeb_1.0.3_iphoneos-arm.deb
+Size: 3572
+MD5sum: b5aa8718f90044be937b72d9f4e7a1f5
+SHA1: 912a6cf3cea1c725df51bb54ad4f849f27bdfa08
+SHA256: 5ec1491fdf630cdb2cbf218a10557d45e5a23271e775b066553cea543cf31c80
+Section: Utilities
+Priority: extra
+Description: Repackage any of your tweaks locally, without the need to download it from Cydia again. This is super usefull when there is an update of your until now perfectly working tweak in Cydia and you want to make a backup of the version installed. Normally you wouldn't be able to backup anything because it is possible to fetch only the most current version of your tweak and so you would be lost. Not anymore :)))
+Author: T.Herak <50dc856b@opayq.com>
+Depiction: https://wiety.github.io/cydia/depictions/?p=com.vsz.redeb
+Name: redeb
 
 Package: com.xia0.fakelocationx
 Version: 6.3-3
@@ -689,6 +852,28 @@ Section: Tweaks
 Description: AcceptWall
 Author: xxx
 Name: AcceptWall
+
+Package: com.yourepo.lly.adsspee
+Version: 1.0.4-3
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 893
+Depends: mobilesubstrate(>= 0.9.5015), preferenceloader(>= 2.2.2), applist
+Conflicts: com.yourepo.lenglengyu.adsspeed
+Filename: ./debs/videoadsspeed_1.0.4-3.deb
+Size: 102790
+MD5sum: 167ee5310397a4fc8a2f893aa1246ea6
+SHA1: d0aaac00e5f9105ce82df3345cbe9182963cb553
+SHA256: 55b9cd7d5e35df65c0da753399ec1e7c4696f097a0b7149f11495a63f8432991
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=videoadsspeedDp
+Description: 快速跳过视频广告，奖励正常领取。快速跳过视频广告，奖励正常领取。
+Tag: purpose::extension, compatible::ios12, compatible::ios13
+Author: lenglengyu <lenglengyu@126.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=videoadsspeedDp
+Dev: lenglengyu
+Icon: file:///Library/PreferenceBundles/adsspeed.bundle/icon@2x.png
+Name: VideoAdsSpeed(快速跳过广告)
 
 Package: com.yourepo.lly.thornoverity
 Version: 0.0.4
@@ -941,19 +1126,19 @@ Icon: file:///Applications/SpeedManger.app/Icon@2x.png
 Name: 烧饼加速器
 
 Package: net.angelxwind.appsyncunified
-Version: 92.0
+Version: 102.0
 Architecture: iphoneos-arm
 Maintainer: Karen/あけみ <karen@akemi.ai>
 Installed-Size: 732
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.4.2)
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.8)
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
 Replaces: us.hackulo.appsync50
 Provides: appsync
 Filename: ./debs/nodelete-net.angelxwind.appsyncunified.deb
-Size: 58314
-MD5sum: f939aee24badb2c8d145aed68120a32c
-SHA1: 91e6d8239b4e75fe53920339a8a589819814f627
-SHA256: d7848ee4310f30b7dcf230d2281a97391d6c9984d2e333c254d9ddac060b9d1d
+Size: 58304
+MD5sum: bfc0ae0a9d103360e8d798d5a04b9620
+SHA1: f95286f3c6dab9f39307ebdc296fcbb273b227fe
+SHA256: 5ef22d365bd66e51815f20a739f1acfc5fe1ad84b5b2a5a6dd0f2279f2ca9d56
 Section: Tweaks
 Homepage: https://cydia.akemi.ai/
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
@@ -1079,6 +1264,27 @@ Author: tihmstar
 Dev: tihmstar
 Name: UntetherHomeDepot
 
+Package: netskao.3dnetworkfixer
+Version: 1.1-6
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 797
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/3dnetworkfixer_1.1-6.deb
+Size: 164930
+MD5sum: e4c504cf3dfd6ee1d8bc6d93ae8117d2
+SHA1: 1cac24f0318a3f772405281e69625df30c5e0bf4
+SHA256: 56d56997dad8aee058030f96c494473a0fd69b0ab135231c6e7863c7f2467741
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=3dnetworkfixerDp
+Description: 长按桌面图标唤出应用菜单，快捷修复该应用的联网权限，支持iOS10-iOS14
+Tag: purpose::extension
+Author: Netskao <admin@initnil.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=3dnetworkfixerDp
+Dev: netskao
+Name: 3DNetworkFixer
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: netskao.classickeyboardxs
 Version: 1.1-5
 Architecture: iphoneos-arm
@@ -1090,6 +1296,28 @@ Size: 58724
 MD5sum: c47b0be6ffb2791929de218a4df45eea
 SHA1: 17a31cb2afccc1525a3bccdcf604b597d88d08e1
 SHA256: 0aa207c4b15655a31d39d137a783ea029f763ec9d40466ae2e1c3fa0a9abb8ce
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=classickeyboardxsDp
+Description: 自定义X键盘底部高度，地球底部高度
+Tag: purpose::extension
+Author: Netskao <netskao@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=classickeyboardxsDp
+Dev: netskao
+Icon: file:///Library/PreferenceBundles/ClassicKeyboardXSSettings.bundle/ClassicKeyboardXSSettings@2x.png
+Name: ClassicKeyboardXS
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: netskao.classickeyboardxs
+Version: 1.1-6
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 352
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/classickeyboardxs_1.1-6.deb
+Size: 61512
+MD5sum: 85ae32628e6aa20d08a369c69697ce67
+SHA1: dda8e2e1a963e6883309466e80bd3a3352c990aa
+SHA256: fae3047a279853c6b4d3836296a19734dc4c40ca06e612023242d4cc315d8d30
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=classickeyboardxsDp
 Description: 自定义X键盘底部高度，地球底部高度
@@ -1121,6 +1349,103 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=disablepas
 Dev: netskao
 Name: DisablePasteTips
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: netskao.disablepastetips
+Version: 1.1-4
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 143
+Depends: firmware (>= 10.0), mobilesubstrate
+Filename: ./debs/disablepastetips_1.1-4.deb
+Size: 3612
+MD5sum: 5bd418a48afb9befe49ec02885dba98d
+SHA1: e6b225ce5edad2e1d7329183ecfd76142835d6a2
+SHA256: 3098f0599a04c1ed384de42c74116e184220fa3283569534fbb4d3761bf5f183
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=disablepastetipsDp
+Description: 禁用iOS14的粘贴提示
+Tag: purpose::extension
+Author: Netskao <admin@initnil.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=disablepastetipsDp
+Dev: netskao
+Name: DisablePasteTips
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: netskao.dumpdecrypter
+Version: 1.2-9.2
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 1072
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: ./debs/netskao.dumpdecrypter_1.2-9.2_iphoneos-arm.deb
+Size: 321934
+MD5sum: 7b69aae9b4e9824d5f7e2162828f22b7
+SHA1: 8388d07afe6ba31e64292624a81ea4ffdcb70ddb
+SHA256: f03aef9df7036312220aae1a59720898544672f91f11d5588042f04bcc0e3ed7
+Section: Netskao-Tweaks
+Description: DumpDecrypter是基于dumpdecrypted的修改封装，使用方式：通过桌面的DumpDecrypter应用程序选择需要解密的应用，增加可选修改版本限制，可选删除跳转URL，可选删除设备限制，可选删除包内小组件，可选删除包内手表组件，可选修复白图标，解密完整应用并导出至/var/mobile/Documents/DumpDecrypter，选择应用后自动杀掉应用进程重新开始，解密前加载所有Frameworks，解密前停止所有非解密线程，解密完成后自动恢复等(解密后的IPA如果你要直接安装，建议重签名，无论使用的签名证书是否有效，否则某些环境会出现闪退等问题)
+Author: Netskao
+Name: DumpDecrypter
+
+Package: netskao.flexlist
+Version: 1.3-2.8
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 9833
+Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader
+Filename: ./debs/flexlist_1.3-2.8.deb
+Size: 2199302
+MD5sum: 738a8500bc62cf85070908a26acdb8a8
+SHA1: edc57b6e736a050854d3cd91d3dbd4aa3f548fd0
+SHA256: 712df0b2ba5f7b091e244f0c3ec801885223c7403cc27b7d3e00273019acc09d
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=flexlistDp
+Description: FLEXList是调用FLEX进行应用分析的工具，支持状态栏快捷唤出，支持设置列表启用/禁用，支持桌面3D启用/禁用
+Tag: purpose::extension
+Author: Netskao <admin@initnil.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=flexlistDp
+Dev: netskao
+Icon: file:///Library/PreferenceBundles/FLEXListSettings.bundle/FLEXList@2x.png
+Name: FLEXList
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: netskao.hidelowpoweralert
+Version: 1.1-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 99
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/hidelowpoweralert_1.1-1.deb
+Size: 2774
+MD5sum: 570595ebcc2fc73c8262f0b4e85b21f2
+SHA1: 9d5d92cf6c0ae82e7fadede2094b68a112d6793f
+SHA256: aaa2648ea9d2591a55477a5220e8ade1e5def53b4c96f1bb587ebe39d30dbca8
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=hidelowpoweralertDp
+Description: 隐藏烦人的低电量弹窗，支持iOS10-13
+Tag: purpose::extension, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Author: Netskao <netskao@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=hidelowpoweralertDp
+Dev: netskao
+Name: HideLowPowerAlert
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: netskao.injectipa
+Version: 1.1-7.1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 1904
+Depends: firmware (>= 11.0)
+Filename: ./debs/netskao.injectipa_1.1-7.1_iphoneos-arm.deb
+Size: 928170
+MD5sum: e88d27f5a3bc90b8c02c59424d5b890c
+SHA1: 26da8e1d5f76ab6234adae0ce6cd01b2ff7abd51
+SHA256: dd21b768bedbbd843c0cd3269490ec8f903282336fa1c8c3e46582e39957667d
+Section: Netskao-Tweaks
+Homepage: https://github.com/Netskao/MacOS-Utils
+Description: injectipa是一款命令行一键注入dylib到ipa工具。用法: injectipa ipa路径 dylib路径 (如有多个dylib依次填写在末尾即可)
+Author: Netskao
+Name: injectipa
 
 Package: phonelocationlite.178
 Version: 0.0.2-14
@@ -1163,6 +1488,26 @@ Depiction: https://store.geometricsoftware.se/packages/se.geometric.graphite
 Name: Graphite Library
 Sileodepiction: https://apt.geometricsoftware.se/package/se.geometric.graphite/depiction
 
+Package: se.geometric.graphite
+Version: 1.3.3
+Architecture: iphoneos-arm
+Maintainer: Geometric Software
+Installed-Size: 1068
+Depends: firmware(>=13.0), mobilesubstrate
+Conflicts: com.muris.libgraphite
+Filename: ./debs/Graphite Library_1.3.3.deb
+Size: 145454
+MD5sum: 223bbac77375ac77f7c8e8cd21bff637
+SHA1: c87c6fce1fe178815e1b807a28c0020fbb43204f
+SHA256: c7f74109fb6578a77794a19a86848db6757c795353374375e7cdb143a33ea7a5
+Section: Development
+Description: powerful library for iOS development
+Tag: purpose::library role::developer
+Author: Geometric Software
+Depiction: https://store.geometricsoftware.se/packages/se.geometric.graphite
+Name: Graphite Library
+Sileodepiction: https://apt.geometricsoftware.se/package/se.geometric.graphite/depiction
+
 Package: se.geometric.intelligentpass3
 Version: 1.2
 Architecture: iphoneos-arm
@@ -1182,6 +1527,26 @@ Depiction: https://store.geometricsoftware.se/packages/se.geometric.intelligentp
 Icon: file:///Library/PreferenceBundles/IntelligentPass3.bundle/store.png
 Name: IntelligentPass 3
 Sileodepiction: https://apt.geometricsoftware.se/package/se.geometric.intelligentpass3/depiction
+
+Package: se.geometric.intelligentpass4
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: Geometric Software
+Installed-Size: 444
+Depends: mobilesubstrate, firmware(>=14.0), firmware(<<15), preferenceloader, se.geometric.graphite
+Filename: ./debs/se.geometric.intelligentpass4_1.1.1_iphoneos-arm.deb
+Size: 89282
+MD5sum: 7d4dbdb0e4ff65d06f7d842e05090497
+SHA1: 380f1247e2eef9d54846a0d0ecd90fb1c11e9eab
+SHA256: 4f867aaab304904188fe2e957dcd6671f3bf70063b2a37636443cdf002408056
+Section: Tweaks
+Description: Disable passcode when not necessary
+Tag: cydia::commercial
+Author: Geometric Software
+Depiction: https://store.geometricsoftware.se/packages/se.geometric.intelligentpass4
+Icon: file:///Library/PreferenceBundles/IntelligentPass.bundle/store.png
+Name: IntelligentPass 4
+Sileodepiction: https://apt.geometricsoftware.se/package/se.geometric.intelligentpass4/depiction
 
 Package: tw.hiraku.ecgenabler
 Version: 1.3
@@ -1204,6 +1569,27 @@ Dev: hiraku
 Name: ECG Enabler
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: tw.hiraku.ecgenabler
+Version: 1.5.2-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 281
+Depends: firmware (>= 12.2), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/ecgenabler_1.5.2-1.deb
+Size: 12352
+MD5sum: 76647d9daa978fc1c17ea9488f795537
+SHA1: e6a13c335ef74815f4c613f91fea01215cc7ea99
+SHA256: 8cf7e6d17fa515e5590657732a6d5187ce62d5883cc56b4a03effeb76f909266
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ecgenablerDp
+Description: Enable Apple Watch ECG in your country
+Tag: purpose::extension
+Author: Hiraku
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ecgenablerDp
+Dev: hiraku
+Name: ECG Enabler
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: xx.plugin.accelerator
 Version: 1.1.4
 Architecture: iphoneos-arm
@@ -1219,4 +1605,20 @@ Description: MOD for accelerator
 Author: 叉叉助手
 Icon: file:///Library/Application Support/<package>/Icon-iPhone.png
 Name: xxplugin-accelerator
+
+Package: xyz.xninja.systeminfo
+Version: 2.7.2-2
+Architecture: iphoneos-arm
+Maintainer: ARX8x
+Depends: mobilesubstrate
+Filename: ./debs/xyz.xninja.systeminfo_2.7.2-2_iphoneos-arm.deb
+Size: 427612
+MD5sum: 26267e8c4797962bd17d57670951021b
+SHA1: 54b7685148da7e599f42429d3a7d4d721b9a8aad
+SHA256: 7b27623082c52e8ce6a2dd990169b49f6f3445e6d95012384b461c8e4b9a20cc
+Section: Tweaks
+Description: System information in Settings app > General > About, and other sections. Set boot-nonce, save SHSH, battery info etc
+Author: ARX8x
+Depiction: https://arx8x.github.io/depictions/systeminfo.html
+Name: System Info
 
