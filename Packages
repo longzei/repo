@@ -853,6 +853,21 @@ Description: AcceptWall
 Author: xxx
 Name: AcceptWall
 
+Package: com.yourepo.ibreak.wechatcallkit
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: iBreak <ibreak2019@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.yourepo.ibreak.wechatcallkit_1.1_iphoneos-arm.deb
+Size: 7604
+MD5sum: 42f5799eb8509309f27a8daf65241261
+SHA1: ae197838f86c050ea3ac560222f9120d7d2afd61
+SHA256: 87aafc6d9d1724e49c41a3920a16a5ac2288517bab63ed2e55e656a0ae32fa78
+Section: Tweaks
+Description: 开启微信 Callkit 通话功能・Open the Callkit Call Function of Wechat
+Author: iBreak <ibreak2019@qq.com>
+Name: WeChat CallKit
+
 Package: com.yourepo.lly.adsspee
 Version: 1.0.4-3
 Architecture: iphoneos-arm
