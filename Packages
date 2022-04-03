@@ -51,6 +51,85 @@ Depiction: http://apt.so/index.php?r=cydia&id=531da6d87901c17b508b46bd
 Name: iFaker
 Sponsor: WeiPhone.com <http://www.weiphone.com>
 
+Package: com.34306.gi
+Version: 2.3.0
+Architecture: iphoneos-arm
+Maintainer: Little 34306
+Installed-Size: 528
+Depends: mobilesubstrate
+Filename: ./debs/com.34306.gi_2.3.0_iphoneos-arm.deb
+Size: 104886
+MD5sum: 97a8b3704b618db7f638ddd3b9cffdf0
+SHA1: 8eaf5f37d4bf40fc096b2e12204d379642907694
+SHA256: 1df29b4309481c9fc78e1a86a306e43be90818827da9e3c73f86cdcb063e5f22
+Section: Tweaks
+Description: GI Mod Menu by 34306!
+Author: 34306
+Name: GI Mod Menu 34306 Free
+
+Package: com.34306.gs
+Version: 2.6.0-1
+Architecture: iphoneos-arm
+Maintainer: Little 34306
+Installed-Size: 792
+Depends: mobilesubstrate
+Filename: ./debs/com.34306.gs_2.6.0-1_iphoneos-arm.deb
+Size: 361056
+MD5sum: 58211228a2c26c7f11e4f5b84028e36b
+SHA1: b5d6f8248a992db82051cbe3add52be686c8dc7a
+SHA256: fcd2ab004fef756d8d51ade2940e326b292c51c1dce120f39aee15fa515f29c4
+Description: Menu hack Genshin Impact. 3 finger double tap to open menu. 2 finger double tap to close menu! Monster not attack fixed, not work anymore. I removed that hack!
+Author: 34306
+Name: Genshin Hack v2.6.0
+
+Package: com.34306.ys
+Version: 2.4.0
+Architecture: iphoneos-arm
+Maintainer: Little 34306
+Installed-Size: 528
+Depends: mobilesubstrate
+Filename: ./debs/com.34306.ys_2.4.0_iphoneos-arm.deb
+Size: 104916
+MD5sum: 3bb1024a163cb95db875861a37fafbac
+SHA1: 30f018b3d6949198d5cb664f779b44767eabb5b5
+SHA256: 509f9099a5c9352bf430a13a9f7b766b216254f39d822b2fb44946f3f619800e
+Section: Tweaks
+Description: Yuanshen (GI China) Mod Menu by 34306!
+Author: 34306
+Name: Yuanshen Mod Menu 34306
+
+Package: com.34306.ys
+Version: 2.5.0
+Architecture: iphoneos-arm
+Maintainer: Little 34306
+Installed-Size: 528
+Depends: mobilesubstrate
+Filename: ./debs/com.34306.ys_2.5.0_iphoneos-arm.deb
+Size: 105350
+MD5sum: 9f8c9ce62a3d53711244b351afe78481
+SHA1: 26a119d55a2b27d97f4ca00a629f3a1224c1ab57
+SHA256: 026aac31ad730b17903ebe27715e5e985a7d4ed9f10e1c150ba026ae5737269e
+Section: Tweaks
+Description: Yuanshen (GI China) Mod Menu by 34306!
+Author: 34306
+Name: Yuanshen Mod Menu 34306
+
+Package: com.34306.ys
+Version: 2.5.0.1-iGG
+Architecture: iphoneos-arm
+Maintainer: Little 34306
+Installed-Size: 528
+Depends: mobilesubstrate
+Filename: ./debs/com.34306.ys_2.5.0.1-iGG_iphoneos-arm.deb
+Size: 120694
+MD5sum: bca790040f34dab01ed565125289828c
+SHA1: ed0207408e339a92d66905aa15350b6865ca0f6d
+SHA256: 88cd1defde54278a24cce353cdf06e6d6fbbfbd0c5b7e807f01f506bd6981270
+Section: Tweaks
+Description: Yuanshen 原神 (GI China) v2.5.0 Hack Mod Menu by 34306! Use 3 finger double tap to enable iGG menu. Disable menu by click "-" red button near the chat button!
+Author: 34306
+Name: Yuanshen (原神) Hack v2.5.0
+
 Package: com.clarkecdc.open
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -182,6 +261,27 @@ Description: Restrict certain apps from accessing wifi on iOS 11
 Author: ATWiiks <repo@hackyouriphone.org>
 Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=conditionalwifi4
 Name: ConditionalWiFi4
+
+Package: com.hackyouriphone.ncontrol
+Version: 1.8.5-1
+Architecture: iphoneos-arm
+Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+Depends: mobilesubstrate
+Conflicts: com.nito.yourcontrol
+Replaces: com.nito.yourcontrol
+Provides: com.nito.yourcontrol
+Filename: ./debs/com.hackyouriphone.ncontrol_1.8.5-1_iphoneos-arm.deb
+Size: 1174454
+MD5sum: d21488d5ac8442339baa3138774db0c3
+SHA1: 3299d2b94e569465a4209841002f6dd5778a1608
+SHA256: 46a2a8d7bc97362fffb5d21e2180825033d7362ed9504e89b03fa6eeb65aaffe
+Section: HYI - Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ncontrol
+Description: Use Sony Dual Shock 4 / Slim, XBox One, Evo VR Pro, 8bitdo *30, iPega I9500 and Nintendo Switch Joy-Con/Pro controllers in any application that supports MFI controllers. Including emulators like Provenance.
+Author: Kevin Bradley & Luca Todesco <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=ncontrol
+Name: nControl
+Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=ncontrol
 
 Package: com.hackyouriphone.sneakycam
 Version: 2.0.4
@@ -908,6 +1008,22 @@ Depiction: https://repo.lenglengyu.top/packageInfo/thor.html
 Name: Thor去限制
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/thorsileo
 
+Package: com.yuigawada.callslicer
+Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: YuWd
+Installed-Size: 888
+Depends: mobilesubstrate, ws.hbang.common (>= 1.2)
+Filename: ./debs/com.yuigawada.callslicer.deb
+Size: 462482
+MD5sum: 9e15c7c55acd16b49c4606d31f48d5a9
+SHA1: 0871f88f632cc9f0e2159b943f976687194b3699
+SHA256: 309c4d2efe3573371420d21babba9984a55400a563f6e83ca8ed7baaec40e180
+Section: Tweaks
+Description: CallSlicer enables you to receive a third-party incoming call on your Apple Watch!
+Author: YuWd
+Name: CallSlicer
+
 Package: com.zlxdike.HomeGesture
 Version: 1.4
 Architecture: iphoneos-arm
@@ -1121,6 +1237,27 @@ Section: Tweaks
 Description: A dummy libactivator.
 Author: libactivator
 Name: libactivator
+
+Package: me.playcover.genshinjailbreakbypass
+Version: 1.2.2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 277
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/me.playcover.genshinjailbreakbypass_1.2.2_iphoneos-arm.deb
+Size: 7692
+MD5sum: 3b957f567cf1785ac1e3fc41c2ce1834
+SHA1: 4c52e7ee49eaf6b35aa323a7f330d40b345dd51b
+SHA256: 4baaf40c2376efe750ff40c958f05425d0a08610fc64de1ee5f54b1ad91d6b76
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bypassgenshinjbDp
+Description: 原神（国服）屏蔽越狱
+Tag: purpose::extension
+Author: Lifeofyou88 <909051860@qq.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bypassgenshinjbDp
+Dev: ivoider
+Name: 原神（国服）屏蔽越狱
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: me.sbtools.SpeedManager
 Version: 1.0.0
