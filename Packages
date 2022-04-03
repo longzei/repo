@@ -67,6 +67,22 @@ Description: GI Mod Menu by 34306!
 Author: 34306
 Name: GI Mod Menu 34306 Free
 
+Package: com.34306.gi
+Version: 2.4.0-Free
+Architecture: iphoneos-arm
+Maintainer: Little 34306
+Installed-Size: 272
+Depends: mobilesubstrate
+Filename: ./debs/com.34306.gi_2.4.0-Free_iphoneos-arm.deb
+Size: 73310
+MD5sum: d586a52fe22f032be38fce11bb14f129
+SHA1: c169ccd9f8d49b36462b4bac0445898ed4fe94c2
+SHA256: e2ae5c9e73ac3e11617bc20a48768c44d1a5f80aad6967a3ec78dab51724525d
+Section: Tweaks
+Description: GI Mod Menu by 34306!
+Author: 34306
+Name: GI Mod Menu 34306 Free
+
 Package: com.34306.gs
 Version: 2.6.0-1
 Architecture: iphoneos-arm
