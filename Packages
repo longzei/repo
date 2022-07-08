@@ -1086,6 +1086,22 @@ Icon: file:///Applications/crackerxi.app/AppIcon.png
 Name: CrackerXI+
 Website: https://ipastore.me
 
+Package: ertbbfghfgh.com
+Version: 5.0
+Architecture: iphoneos-arm
+Maintainer: com
+Depends: firmware (>=10.0)
+Filename: ./debs/iThunder.deb
+Size: 57608352
+MD5sum: 6b895619a3baf28dbe10ad86726b3363
+SHA1: 5f7ee1d6fd2dcb17d00cec2ca46b8bed5098fb7f
+SHA256: 1e56729387f9e6cef80c49c0ddd83c511c2ee71e6e6ee4071b24be16419ec4d1
+Section: Applications
+Description: App resigned with Linus Henze's CoreTrust bypass so it doesn't expire.
+Author: com
+Name: iThunder
+Tags: compatible_min::ios10.0
+
 Package: iOSGods.com.GenshinImpact
 Version: 1.0.2+iOSGods.com
 Architecture: iphoneos-arm
@@ -1636,6 +1652,24 @@ Depiction: http://apt.178.com/html/2014/0102/iphone10337.shtml
 Name: PhoneLocationLite
 Sponsor: w花
 
+Package: re.frida.server
+Version: 15.1.28
+Architecture: iphoneos-arm
+Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
+Installed-Size: 55592
+Conflicts: re.frida.server64
+Filename: ./debs/re.frida.server_15.1.28_iphoneos-arm.deb
+Size: 24756514
+MD5sum: 6490fa9532c3d192ec2b48200a8309fd
+SHA1: d15365cd37d79b8fdc9f38a32f785d993c0e0267
+SHA256: 14f26ea14ffff5a1fcaf63a47b5e5f0b655c8f86e996e39f266f4723e6475dce
+Section: Development
+Priority: optional
+Homepage: https://www.frida.re/
+Description: Inject JavaScript to explore iOS apps over USB.
+Author: Frida Developers <oleavr@nowsecure.com>
+Name: Frida
+
 Package: se.geometric.graphite
 Version: 1.1.2
 Architecture: iphoneos-arm
@@ -1757,6 +1791,25 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ecgenabler
 Dev: hiraku
 Name: ECG Enabler
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: x.dingtalkhelperx2
+Version: 2.1.7
+Architecture: iphoneos-arm
+Maintainer: Editornah
+Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader
+Conflicts: com.kevll.dingtalkhelper, x.dingtalkhelperx
+Filename: ./debs/x.dingtalkhelperx2_2.1.7_iphoneos-arm.deb
+Size: 122394
+MD5sum: a7989391660b54d66c61b06d98073f0d
+SHA1: 39525a2b533ae79a5dbc2e03101b0c6d084d3f35
+SHA256: 20fcae7d3addb84e842ee89b9bcae04af1b01645e36fca053bdec274719553be
+Section: Tweaks
+Priority: optional
+Tag: purpose::extension, compatible::ios14
+Author: Editornah
+Icon: file:///Library/PreferenceLoader/Preferences/DingTalkHelperX.png
+Name: DingTalkHelperX2
+Sponsor: Editornah
 
 Package: xx.plugin.accelerator
 Version: 1.1.4
