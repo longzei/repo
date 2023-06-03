@@ -222,6 +222,21 @@ Author: CokePokes
 Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
 Name: AppStore++
 
+Package: com.crazymind90.itheosmakertweak
+Version: 1.5
+Architecture: iphoneos-arm
+Maintainer: @CrazyMind90
+Filename: ./debs/com.crazymind90.itheosmakertweak_1.5_iphoneos-arm.deb
+Size: 1308086
+MD5sum: ea479bc7c466f056d7145291c8c4e033
+SHA1: b9e5464b969ab5b8b3570cba2893908bd2d251bc
+SHA256: c1163f133c07c9d178b20a3a170c9cc067725ef5d59b61d417c779bf297e84c0
+Section: base
+Priority: optional
+Description: An app that helps you to create and manage Theos projects
+Author: @CrazyMind90
+Name: iTheosMaker
+
 Package: com.cydiageek.coysim
 Version: 1.6.4
 Architecture: iphoneos-arm
@@ -737,6 +752,72 @@ Description: Make the iPhone vibrate when you outgoing call gets connected / ans
 Author: Plipala
 Name: CallVibrate
 
+Package: com.randy420.tai
+Version: 5.2.2
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 476
+Depends: com.randy420.tools (>= 2.3), clang, curl, git, grep, perl, rsync, unzip, make, ldid, com.opa334.ccsupport, xar
+Conflicts: net.howett.theos
+Filename: ./debs/com.randy420.tai_5.2.2_iphoneos-arm.deb
+Size: 125906
+MD5sum: 0a5e0b16cb4d983472ce9c6d4ada5a7c
+SHA1: 00a35d53614f0985845099f4be13974469acd540
+SHA256: f60f46d96b00c3a74a6487d0f4a35766ae4d239fe9a1ccccdb1c317462b85a11
+Section: System
+Homepage: https://theemeraldisle.family
+Description: Install Theos from terminal using a simple terminal command (CONFIGURE FROM SETTINGS AND CONNECT TO WIFI)
+ - tai
+ UNINSTALL THEOS
+ - tai -u
+ REINSTALL THEOS
+ - tai -r
+Tag: role::hacker
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/tai.html
+Name: Theos Auto Installer
+
+Package: com.randy420.tools
+Version: 2.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 2215
+Depends: ws.hbang.common, preferenceloader
+Filename: ./debs/com.randy420.tools_2.1_iphoneos-arm.deb
+Size: 962210
+MD5sum: 8a151095b13bc4e2ce1187ca60df4ad6
+SHA1: 236f23aecd21afbf2dc1f7fc992b4444eca20bbf
+SHA256: c9fa13f9d592e7a93ad2d5613b7dd62f9477c53fc258b62325e58afa4202468b
+Section: Development
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=420toolsDp
+Description: Tools for Randy420's tweaks
+Tag: role::developer, purpose::library
+Author: Randy420 <randy.skinner28@outlook.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=420toolsDp
+Dev: randy420
+Name: 420 Tools
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.randy420.tools
+Version: 2.3.6
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 2288
+Depends: ws.hbang.common
+Replaces: com.randy420.encrypt
+Filename: ./debs/com.randy420.tools_2.3.6_iphoneos-arm.deb
+Size: 946882
+MD5sum: d6e569bfb31cd932643743ae3062666c
+SHA1: 082306721ec8e86ed0d5bb97fd3ac2e2fd60c31f
+SHA256: 34b9e6ea6c956c671a89b2a8d04459c5979a96d86b3bfb7a7b2c508d72072d75
+Section: System
+Homepage: https://theemeraldisle.family
+Description: 420Tools holds the preferences for all my tweaks as well as shared files for my tweaks.
+Tag: role::hacker
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
+Name: 420 Tools
+
 Package: com.rpgfarm.a-bypass
 Version: 1.5.2
 Architecture: iphoneos-arm
@@ -1069,6 +1150,22 @@ Priority: optional
 Description: iOS11手势插件，修复微信语音bug,相机退出BUG，后台上滑关闭APP等,带设置开关
 Author: zlxdike
 Name: HomeGesture
+
+Package: com.zx02.frame
+Version: 2.4.4
+Architecture: iphoneos-arm
+Maintainer: Zerui Chen
+Installed-Size: 8536
+Depends: mobilesubstrate,preferenceloader,firmware (>= 12.1.9)
+Filename: ./debs/com.zx02.frame_2.4.4_iphoneos-arm.deb
+Size: 1743036
+MD5sum: a234437baa2b4bbd323c8bfe0e76121b
+SHA1: b0fdee67d664df59b4575e097aefab015f08400a
+SHA256: 7814ede6f333db63f0d6ca7c1f75399c5c1a5c15b5b60ab71a7572a9530f1964
+Section: Wallpaper
+Description: Bring your iDevice to life with true video wallpapers.
+Author: Zerui Chen
+Name: Frame
 
 Package: cydia.com.ipc.crackerxi
 Version: 1.1.16
@@ -1669,6 +1766,67 @@ Homepage: https://www.frida.re/
 Description: Inject JavaScript to explore iOS apps over USB.
 Author: Frida Developers <oleavr@nowsecure.com>
 Name: Frida
+
+Package: ru.rejail.ncontrol
+Version: 1.9.6-9
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 4399
+Depends: mobilesubstrate
+Conflicts: com.nito.yourcontrol
+Replaces: com.nito.yourcontrol
+Provides: com.nito.yourcontrol
+Filename: ./debs/ru.rejail.ncontrol_1.9.6-9_iphoneos-arm.deb
+Size: 1619652
+MD5sum: c2e99b70cb0d337c33f70eebd7230516
+SHA1: 96cd1d5607b965e7489dd5085eaf9cac2a20292b
+SHA256: 91a16edf511790137ca363255f8c33ff98a42e8c2c53d957176ea81079a9a264
+Section: Tweaks
+Description: Подключение джойстика к вашему устройству
+Author: Kevin Bradley & Luca Todesco
+Depiction: https://rejail.ru/depiction.php?file=ncontrol
+Name: nControl
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=ncontrol
+
+Package: ru.rj.ftt
+Version: 0.6
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 359
+Depends: mobilesubstrate, com.randy420.tools (>= 1.7)
+Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
+Filename: ./debs/ru.rj.ftt_0.6_iphoneos-arm.deb
+Size: 92322
+MD5sum: 90928346a9c15d51ad5b4040856d9af3
+SHA1: c82e648df9743eb226e02a8c0927de208b44e7a3
+SHA256: 794f8baa7d576d845d2852d219ef0bf328b04aa6719224d325a1285f1b133b1f
+Section: Utilities
+Description: Конвертация Flex патчей в твики
+Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
+Depiction: https://rejail.ru/depiction.php?file=ftt
+Name: Flex To Theos
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=ftt
+
+Package: ru.rj.ftt
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 484
+Depends: mobilesubstrate, com.randy420.tools (>= 2.2)
+Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
+Filename: ./debs/ru.rj.ftt_1.1_iphoneos-arm.deb
+Size: 161928
+MD5sum: e41a4c4f21a490e113e339facdbf2a2b
+SHA1: c0c8323811b811f933b0dde719f1e6b7f2ebbeab
+SHA256: 206b4e7202c25c631c2eef45ee30410fd49f00825942032ba01bdfd0776b2d7a
+Section: Utilities
+Homepage: https://theemeraldisle.family
+Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands.
+  
+ - Use 'ftt -?' For a full list of options.
+Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/ftt.html
+Name: Flex To Theos
 
 Package: se.geometric.graphite
 Version: 1.1.2
